@@ -7,7 +7,7 @@ import java.util.Scanner;
 // your grade is 2.5/5
 //@ change the class name Main to match the file name Assignment1 (golden rule)
           class  Assignment1 {
-    public static void  Assignment1(String[] args) {
+    public static void  main(String[] args) {
           double N1 , N2 ;
            Scanner myscan = new Scanner(System.in);
            
