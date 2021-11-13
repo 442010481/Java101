@@ -4,7 +4,7 @@ import java.util.Scanner;
 //Your Name mohammed ahmed alhartoumi
 
 //Your ID 442010481
-// your grade is 2.5/5
+// your grade is 3.5/5
 //@ change the class name Main to match the file name Assignment1 (golden rule)
           class  Assignment1 {
     public static void  main(String[] args) {

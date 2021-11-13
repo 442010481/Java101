@@ -1,7 +1,7 @@
 
 import java.util.Random;
 import java.util.Scanner;
-
+//your grade is 5/5
 public class RockPaperSe {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
