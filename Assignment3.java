@@ -72,7 +72,7 @@ public class Assignment3{
           int maxgrade = 5;
           int  $max= 0 ;
            for( int index =0 ; ids.length > index; index++){
-               if (courses[index].equals(course)& maxgrade<grades[index] ){
+               if (courses[index].equals(course)&& maxgrade<grades[index] ){
                maxgrade = grades[index];
                 $max= index; 
                System.out.format("[%d]:%s has the highest %d grdae in %s\n", ids[$max], studentsName[$max], grades[$max], course);
@@ -89,7 +89,7 @@ public class Assignment3{
            int $min = 0 ;
            
            for ( int index =0 ; ids.length > index; index++){
-           if ( grades[index]< mingrade & courses[index].equals(course) ){
+           if ( grades[index]< mingrade && courses[index].equals(course) ){
             mingrade = grades[index];
             $min = index;
              System.out.format("[%d]:%s has the lowest %d grdae in %s\n", ids[$min], studentsName[$min], grades[$min], course);
