@@ -1,8 +1,11 @@
-
+import java.util.Scanner;
 public class weekendAndweekdays
+
 {
 	public static void main(String[] args) {
-	  int day = 7;
+	       Scanner scan = new Scanner(System.in);
+	       System.out.println("Etner a Number to check");
+	  int day = scan.nextInt();
 switch (day) {
   case 1:
     
