@@ -1,0 +1,12 @@
+package Comapny_;
+public enum OrderStatus  {
+    NEW,
+    PENDING,
+    REFUSED,
+    COMPLETE;
+
+  /*  public String element;
+    private OrderStatus(String element) {
+        this.element = element;
+    }*/
+}
